@@ -643,7 +643,6 @@ ul {
 .catalog-inner {
   display: flex;
   gap: 40px;
-  margin-left: -200px;
 }
 /* .catalog-left {
   width: 360px;
@@ -831,6 +830,8 @@ input[type="range"]:nth-child(1)::-webkit-slider-thumb {
 }
 .catalog-right-product {
   margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px 40px;
 }
 .catalog-right-product .products-offer-p {
   text-align: left;
